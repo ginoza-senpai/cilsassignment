@@ -1,5 +1,4 @@
 <h1>Iterated Local Search: Quadratic Assignment Problem</h1>
-<hr noshade size="1">
 <p>
 Implementation of iterative local search for the <a href="http://en.wikipedia.org/wiki/Quadratic_assignment_problem">quadratic assignment problem</a>. The QAP is a
 strongly NP-hard problem, and solving instances with more than 20 variables is considered intractable.
