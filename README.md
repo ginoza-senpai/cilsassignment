@@ -1,6 +1,6 @@
 <h1>Iterated Local Search: Quadratic Assignment Problem</h1>
 <p>
-Implementation of iterative local search for the <a href="http://en.wikipedia.org/wiki/Quadratic_assignment_problem">quadratic assignment problem</a>. The QAP is a
+Implementation of iterative local search for the <a href="http://en.wikipedia.org/wiki/Quadratic_assignment_problem">quadratic assignment problem</a> (C++). The QAP is a
 strongly NP-hard problem, and solving instances with more than 20 variables is considered intractable.
 The implementation uses a population of individuals and performs local improvement on them.
 Local improvement accepts worse solutions with a probability of 0.0. The parameters of the algorithm
