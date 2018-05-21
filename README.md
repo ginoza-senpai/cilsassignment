@@ -9,3 +9,9 @@ can be adjusted by changing the global variables. The algorithm can be used to f
 for large QAP instances for which exact methods are not suitable. (The code finds optimal solutions to all <i>nugXX</i> instances in a few seconds)
 </p>
 Instances are available at <a href="http://www.opt.math.tu-graz.ac.at/qaplib/">QAPLIB</a>. (The code includes a parser for the QAPLIB format).
+<br>
+<p>Cite this code:
+<br>
+<i>Shalin Shah, 2012, "Implementation of iterative local search (ILS) for the quadratic assignment problem"</i></p>
+
+<br><b>Cited By:</b><ul><li>Kanduc, T. “Optimisation of factory floor layout in a complex manufacturing process.” (2014).</li><li>Kanduc, T., and B. Rodic. "Optimisation of machine layout using a force generated graph algorithm and simulated annealing." International Journal of Simulation Modelling 15.2 (2016): 275-287.</li><li>Rodic, B., and T. Kanduc. "Optimisation of a complex manufacturing process using discrete event simulation and a novel heuristic algorithm." International Journal of Mathematical Models and Methods in Applied Sciences 9 (2015): 320-329.</li><li>Truetsch, Uwe. A semidefinite programming based branch-and-bound framework for the quadratic assignment problem. CentER, Tilburg University, 2014.</li><li>Manufacturing processes optimisation in a furniture factory (ITIS 2014)</ul></li><br>
