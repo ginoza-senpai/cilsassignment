@@ -1,6 +1,7 @@
 <h1>Iterated Local Search: Quadratic Assignment Problem</h1>
 
 <i><h3>Shalin Shah</h3></i>
+<a href="https://zenodo.org/badge/latestdoi/134310524"><img src="https://zenodo.org/badge/134310524.svg" alt="DOI"></a>
 
 <p>
 Implementation of iterative local search for the <a href="http://en.wikipedia.org/wiki/Quadratic_assignment_problem">quadratic assignment problem</a> (C++). The QAP is a
