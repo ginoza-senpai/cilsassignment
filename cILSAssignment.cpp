@@ -30,7 +30,7 @@ int NUMBER_OBJECTS; // populated in processData()
 /* Probability of accepting a worse solution in localImprovement */
 const double WORSE_ACCEPTANCE_PROB = 0.0;
 /* Number of Generations */
-const int GENERATIONS = 2000000;
+const int GENERATIONS = 10000;
 /* Number of local Improvements to perform */
 const int LOCAL_IMPROVEMENT = 1000;
 /* Size of the population */
@@ -100,7 +100,7 @@ class QNode
       }
 
       /* Assignment Operator */
-      QNode & operator = (const QNode & copy)
+      void operator = (const QNode & copy)
       {
       	if(assignments != NULL)
          	delete [] assignments;
@@ -193,7 +193,7 @@ class QNode
       }
 
       /* Get the objective function value of this solution */
-      int getValue()
+      int getValue() const
       {
       	return value;
       }
@@ -360,7 +360,7 @@ vector<QNode*> * generateRandomPopulation(int pop)
       {
       	assign[n] = -1;
       }
-      
+
       for(int n=0; n<NUMBER_OBJECTS; n++)
       {
       	int rand = generateRandomNumber(0, NUMBER_OBJECTS-1);
