@@ -12,7 +12,7 @@ can be adjusted by changing the global variables. The algorithm can be used to f
 for large QAP instances for which exact methods are not suitable. (The code finds optimal solutions to <i>nug21</i>, <i>nug22</i> and <i>nug30</i> instances in a few seconds). Please rename nugXX.dat to data.dat before running the code. The nug instances were first described in [1].
 </p>
 Instances are available at <a href="http://www.opt.math.tu-graz.ac.at/qaplib/">QAPLIB</a>. 
-(The code includes a parser for the QAPLIB format).<br>
+(The code includes a parser for the QAPLIB format).<br><br>
 <p><b>Cite this code:</b>
 <br>
 <pre>
