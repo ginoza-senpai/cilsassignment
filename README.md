@@ -9,7 +9,7 @@ strongly NP-hard problem, and solving instances with more than 20 variables is c
 The implementation uses a population of individuals and performs local improvement on them.
 Local improvement accepts worse solutions with a probability of 0.0. The parameters of the algorithm
 can be adjusted by changing the global variables. The algorithm can be used to find approximate solutions
-for large QAP instances for which exact methods are not suitable. (The code finds optimal solutions to all <i>nugXX</i> instances in a few seconds)
+for large QAP instances for which exact methods are not suitable. (The code finds optimal solutions to <i>nug21</i> and <i>nug22</i> instances in a few seconds). Please rename nugXX.dat to data.dat before running the code.
 </p>
 Instances are available at <a href="http://www.opt.math.tu-graz.ac.at/qaplib/">QAPLIB</a>. 
 (The code includes a parser for the QAPLIB format).
