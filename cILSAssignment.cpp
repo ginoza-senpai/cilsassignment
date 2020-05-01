@@ -220,18 +220,23 @@ class QNode
 };
 
 /* Process the data from the file */
-void processData()
+void processData(char * filename)
 {
 	FILE * file;
-	file = fopen("data.dat", "r");
+	file = fopen(filename, "r");
    if(file == NULL)
    {
-   	printf("File Not Found in Current Directory.");
+   		printf("File Not Found in Current Directory.");
       exit(1);
    }
 
 	char * line = new char [1000];
 	fgets(line, 1000, file);
+	while(strlen(line) <= 1)
+	{
+			fgets(line, 1000, file);
+	}
+	
 	NUMBER_OBJECTS = atoi(line);
    fgets(line, 1000, file);
 
@@ -518,13 +523,21 @@ void localImprovement(QNode * node)
 }
 
 /* Main */
-int main(void)
+int main(int argc, char * argv[])
 {
+
+	if(argc < 3)
+	{
+			printf("\nUsage: ./a.out filename iterations\n\n");
+			exit(0);
+	}
+
 	/* Initialize the random number generator */
 	srand(time(NULL));
 
    /* Read the number of locations, flow and distance matrices from a file */
-	processData();
+	processData(argv[1]);
+	GENERATIONS = atoi(argv[2]);
 
    /* Generate random initial population */
    vector<QNode*> * population = generateRandomPopulation(POPULATION);
