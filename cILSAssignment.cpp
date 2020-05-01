@@ -30,7 +30,7 @@ int NUMBER_OBJECTS; // populated in processData()
 /* Probability of accepting a worse solution in localImprovement */
 const double WORSE_ACCEPTANCE_PROB = 0.0;
 /* Number of Generations */
-const int GENERATIONS = 10000;
+int GENERATIONS = 10000;
 /* Number of local Improvements to perform */
 const int LOCAL_IMPROVEMENT = 1000;
 /* Size of the population */
