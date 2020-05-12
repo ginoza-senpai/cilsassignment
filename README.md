@@ -19,7 +19,8 @@ Instances are available at <a href="http://www.opt.math.tu-graz.ac.at/qaplib/">Q
 @misc{shah2014ilsqap,
   title={Implementation of iterative local search (ILS) for the quadratic assignment problem},
   author={Shah, Shalin},
-  year={2014}
+  year={2014},
+  DOI={10.5281/zenodo.3818585}
 }
 </pre>
 <br>
