@@ -18,7 +18,8 @@ Email: shah.shalin@gmail.com
 #include <stdio.h>
 #include <algorithm>
 #include <vector>
-
+#include <string.h>
+#include <ctime>
 using namespace std;
 
 /* Globals */
